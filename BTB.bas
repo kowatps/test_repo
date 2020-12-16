@@ -10,6 +10,7 @@ Dim wb1 As Workbook
 Dim wb2 As Workbook
 
 Application.ScreenUpdating = False
+
 Application.Calculation = xlCalculationAutomatic
 
 Set wb1 = ActiveWorkbook
