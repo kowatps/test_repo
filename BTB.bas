@@ -17,6 +17,9 @@ i = 2
 Do While Cells(i, 1) <> ""
      i = i + 1
 Loop
+
+' github ソースツリーテスト
+
 i = i - 2
 ans = MsgBox("BTBカラーミーショップからのデータを処理しますか？" & vbCrLf & "【　" & i & "　件】", vbOKCancel, "【確認】")
 
